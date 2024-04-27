@@ -54,7 +54,7 @@ div{/*
 	background-color: #070F2B;
 }
 .menu div{
-	padding: 1%;
+	padding: 2%;
 	letter-spacing: 2px;
 	text-align: center;
 }
@@ -126,6 +126,12 @@ div{/*
 	margin: 1%;
 }
 
+.contact div{
+	padding: 2%;
+	background-color: #00215E;
+	margin: 4.17%;
+}
+
 
 /*media query*/
 @media (max-width: 768px){
@@ -134,5 +140,16 @@ div{/*
 	}
 	.members{
 		padding: 1%;
+	}
+	.menu .col-7{
+		width: 30%;
+	}
+	.menu .col-1{
+		width: 20%;
+	}
+	.contact div{
+		width: 48%;
+		padding: 2%;
+		margin: 1%;
 	}
 }
