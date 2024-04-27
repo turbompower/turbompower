@@ -55,7 +55,7 @@ div{/*
 }
 .menu div{
 	padding: 2%;
-	letter-spacing: 2px;
+	font-size: 20px;
 	text-align: center;
 }
 .menu .col-1:hover{
