@@ -6,6 +6,7 @@
 	transition: all 0.8s ease;
 	top:0;
 	left: 0;
+	letter-spacing: 2px;
 }
 body{
 	background-color: #070F2B;
@@ -79,12 +80,15 @@ div{/*
 }
 
 /*members*/
+.members{
+	padding: 0;
+}
 .members .col-6{
 	padding: 2% 5%;
 	overflow: hidden;
 }
 .members .col-6 img{
-	height: 300px;
+	height: 350px;
 }
 .member-div{
 	background-color: #ffffff;
@@ -99,6 +103,10 @@ div{/*
 	border-radius: 10px;
 	margin: 2%;
 }
+.pp{
+	width: 250px;
+}
+
 .dd button{
 	width: 200px;
 	height: 50px;
@@ -110,26 +118,21 @@ div{/*
 	background-color: #00215E;
 	cursor: pointer;
 }
+.memberdiv{
+	width: 48%;
+	border-style: solid;
+	border-color: #365486;
+	border-radius: 10px;
+	margin: 1%;
+}
 
 
-	.memberdiv{
-		width: 48%;
-		border-style: solid;
-		border-color: #365486;
-		border-radius: 10px;
-		margin: 1%;
-	}
 /*media query*/
 @media (max-width: 768px){
 	[class*="col-"] {
   		width: 100%;
 	}
-	.pp{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.dd{
+	.members{
 		padding: 1%;
 	}
 }
